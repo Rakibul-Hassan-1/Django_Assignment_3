@@ -1,0 +1,32 @@
+{% extends "base.html" %} {% block content %}
+<h1
+  class="text-success text-center"
+  style="
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+  "
+>
+  RADISSON BLU
+</h1>
+{% load static %}
+<div class="d-flex row flex-wrap align-items-lg-center pt-5; flex-wrap:warp">
+  <div class="col-4 ps-4">
+    <h2 class="text-success">Welcome To Radisson Blu</h2>
+    <br />
+    <b
+      >Raddison Blu is one of the best restaurant in Chattogram city. <br />
+      Here we serve our customers very carefully. Here your can find many
+      delicious food with lowest cost. <br />
+      Our foods are fully hygenic and qualify controlled.
+    </b>
+  </div>
+  <div class="col-8">
+    <img
+      src="{% static 'images/redison.jpeg' %}"
+      style="width: 70%; height: 90%"
+    />
+  </div>
+</div>
+
+{% endblock content %}

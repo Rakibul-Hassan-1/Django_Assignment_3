@@ -1,0 +1,35 @@
+{% extends "base.html" %} {% block content %} {% load static %}
+
+<div class="d-flex row mt-5">
+  <div class="col-5 justify-content-center align-items-center d-flex">
+    <div>
+      <h1 class="text-success text-center">About us</h1>
+
+      <div style="padding-left: 100px; text-align: justify">
+        <b class="text-allert"
+          >Hello! This is Radisson Blu Team. <br />
+          Welcome to Savory Moments, where every dish tells a story. Nestled in
+          the heart of the city <br />
+          our family-run restaurant has been serving up rich, authentic flavors
+          crafted from locally-sourced ingredients since 1995. <br />
+          Join us for a culinary journey that celebrates tradition and
+          innovation on your plate</b
+        >
+      </div>
+      <br />
+      <br />
+      <a href="#" class="btn btn-danger" style="margin-left: 130px"
+        >Contact with us</a
+      >
+    </div>
+  </div>
+  <div class="col-7">
+    <img
+      style="width: 90%"
+      src="{% static 'about_us_images/contact_us.jpeg' %}"
+      alt="This is image text"
+    />
+  </div>
+</div>
+
+{% endblock content %}
